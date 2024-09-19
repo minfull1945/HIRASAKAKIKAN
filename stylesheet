@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
+  background-image: url(komonjo.jpeg);
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(komonjo.jpeg);
+  background-image: url(top.png);
   background-size: cover;
   color: white;
   text-align: center;
