@@ -19,10 +19,6 @@ main {
   margin: 10%;
 }
 
-a {
-  text-decoration: none;
-}
-
 .container {
   width: 100%;
   padding: 0 15px;
@@ -85,15 +81,6 @@ a {
 
 .fa {
   margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34,49,52,0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
 }
 
 .logo {
@@ -189,20 +176,6 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
 .menu-icon {
   color: white;
   float: right;
@@ -215,69 +188,5 @@ footer {
   clear: left;
 }
 
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
 
-  .lesson-wrapper {
-    height: 990px;
-  }
 
-  footer {
-    text-align: center;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-}
-
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  .top-wrapper .btn {
-    width: 100%;
-  }
-
-  .twitter {
-    margin-top: 10px;
-  }
-
-  .top-wrapper {
-    text-align: left;
-  }
-
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
-  }
-
-  .lesson {
-    width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
-  }
-
-  .message-wrapper .btn {
-    width: 100%;
-  }
-}
