@@ -29,4 +29,9 @@ body {
 }
 
 
+#error_message p{
+  font-size:29px;
+  font-weight: bold;
+}
+
 
