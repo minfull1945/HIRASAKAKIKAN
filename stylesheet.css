@@ -8,12 +8,13 @@ main {
 }
 
 .tatle_logo h1{
-  font-size:4.0rem;
+  font-size:6.0rem;
 }
 
 .tatle_logo{
-  padding:100px;
+  padding:120px 60px;
   text-align:center;
+  font-weight: bold;
 }
 
 .center {
