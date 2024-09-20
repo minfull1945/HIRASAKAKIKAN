@@ -14,4 +14,30 @@ function login() {
     } else {
         window.location.href = 'error.html'; // ページ遷移
     }
+
 }
+
+//ドキュメント1
+function document1_permit() {
+    var userName = document.getElementById('user_name').value;
+    var correctPassword = '12345';
+    
+     if (userName === correctUserName && password === correctPassword) {
+        window.location.href = 'document1.html'; // ページ遷移
+    } else {
+        window.location.href = 'error.html'; // ページ遷移
+    }
+}
+
+//ドキュメント２
+function document2_permit() {
+    var userName = document.getElementById('user_name').value;
+    var correctPassword = '12345';
+    
+    if (userName === correctUserName && password === correctPassword) {
+        window.location.href = 'document2.html'; // ページ遷移
+    } else {
+        window.location.href = 'error.html'; // ページ遷移
+    }
+}
+
