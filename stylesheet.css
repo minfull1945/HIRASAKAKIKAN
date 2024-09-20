@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.background {
+main {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
   background-image: url(komonjo.jpeg);
