@@ -19,10 +19,11 @@ function login() {
 
 //ドキュメント1
 function document1_permit() {
-    var userName = document.getElementById('user_name').value;
+    var password = document.getElementById('document1_textbox').value;
+    
     var correctPassword = '12345';
     
-     if (userName === correctUserName && password === correctPassword) {
+     if (password === correctPassword) {
         window.location.href = 'document1.html'; // ページ遷移
     } else {
         window.location.href = 'error.html'; // ページ遷移
@@ -31,10 +32,11 @@ function document1_permit() {
 
 //ドキュメント２
 function document2_permit() {
-    var userName = document.getElementById('user_name').value;
+    var password = document.getElementById('document2_textbox').value;
+    
     var correctPassword = '12345';
     
-    if (userName === correctUserName && password === correctPassword) {
+    if (password === correctPassword) {
         window.location.href = 'document2.html'; // ページ遷移
     } else {
         window.location.href = 'error.html'; // ページ遷移
