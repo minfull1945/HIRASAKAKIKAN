@@ -4,11 +4,11 @@ main {
   background-image: url(komonjo.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  display: inline-block;
+  display: block;
 }
 
 .tatle_logo{
-  margin: 10px;
+  padding:10%;
 }
 
 .center {
