@@ -12,6 +12,6 @@ function login() {
     if (userName === correctUserName && password === correctPassword) {
         window.location.href = 'staff_home.html'; // ページ遷移
     } else {
-        alert('ユーザー名またはパスワードが正しくありません');
+        window.location.href = 'error.html'; // ページ遷移
     }
 }
