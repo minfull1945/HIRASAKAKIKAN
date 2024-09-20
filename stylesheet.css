@@ -1,5 +1,3 @@
-
-
 main {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -7,6 +5,10 @@ main {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline-block;
+}
+
+.tatle_logo{
+  margin: 10px;
 }
 
 .center {
