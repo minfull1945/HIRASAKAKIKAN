@@ -7,6 +7,12 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
   background-image: url(komonjo.jpeg);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.center {
+
 }
 
 a {
