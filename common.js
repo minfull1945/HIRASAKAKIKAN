@@ -21,7 +21,7 @@ function login() {
 function document1_permit() {
     var password = document.getElementById('document1_textbox').value;
     
-    var correctPassword = '11111';
+    var correctPassword = 'takama2024hr';
     
      if (password === correctPassword) {
         window.location.href = 'document1.html'; // ページ遷移
@@ -34,7 +34,7 @@ function document1_permit() {
 function document2_permit() {
     var password = document.getElementById('document2_textbox').value;
     
-    var correctPassword = 'aaaaa';
+    var correctPassword = 'amagasaki2021';
     
     if (password === correctPassword) {
         window.location.href = 'document2.html'; // ページ遷移
