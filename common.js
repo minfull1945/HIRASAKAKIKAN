@@ -5,8 +5,8 @@ function login() {
     var password = document.getElementById('password').value;
 
     // ここで確認するユーザー名とパスワードを指定
-    var correctUserName = 'staff';
-    var correctPassword = '12345';
+    var correctUserName = 'soma_jp';
+    var correctPassword = 'kaku14abcd';
 
     // ユーザー名とパスワードが一致していればstaff_home.htmlに遷移
     if (userName === correctUserName && password === correctPassword) {
